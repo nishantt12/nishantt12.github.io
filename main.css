@@ -22,6 +22,11 @@ body{
   border-radius: 50%;
   width: 200px;
   height: 200px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  object-fit: cover;
+  object-position: 100% 0;
+  
 }
 
 .box h1{
@@ -37,7 +42,7 @@ body{
 }
 
 .box p{
-  text-align: justify;
+  text-align: center;
 }
 
 ul{
